@@ -1,0 +1,22 @@
+{
+  "name": "p07-oc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss ./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erik-TH/P07-OC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erik-TH/P07-OC/issues"
+  },
+  "homepage": "https://github.com/Erik-TH/P07-OC#readme",
+  "devDependencies": {
+    "eslint": "^8.19.0"
+  }
+}
