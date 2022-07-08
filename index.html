@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Les Petits Plats</title>
+
+    <link rel="stylesheet" href="./public/css/style.css">
+    <script src="https://kit.fontawesome.com/8ef86065c9.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+
+    <header class="header">
+        <img class="header__logo" src="./public/assets/img/logo__lesPetitsPlats.svg" alt="Logo Les Petits Plats">
+    </header>
+
+    <main id="main" class="main">
+
+        <section id="searchBar" class="searchBar">
+
+            <form id="searchForm" class="searchBar__input">
+
+                <input
+                type="text"
+                name="search recipe"
+                id="searchInput"
+                placeholder="Rechercher une recette"
+                aria-label="Rechercher une recette"
+                >
+
+                <i class="fas fa-search"></i>
+
+            </form>
+
+        </section>
+
+        <section id="filters-tags" class="filters-tags">
+
+            <div id="filtersMenu" class="filtersMenu"></div>
+
+
+            <ul id="tagsList" class="tagsList"></ul>
+            
+        </section>
+
+        <!-- recipes cards -->
+        <section id="recipes" class="recipes">
+
+        </section>
+
+
+    </main>
     
 </body>
+
 </html>
